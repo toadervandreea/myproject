@@ -1,0 +1,12 @@
+tr:nth-child(2n){
+    background-color: palevioletred;
+}
+tr:nth-child(2n+1){
+    background-color: rgb(78, 78, 173);
+}
+tr:last-child{
+    background-color: rgb(35, 100, 35);
+}
+#special{
+    background-color: blueviolet;
+}
