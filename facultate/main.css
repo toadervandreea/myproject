@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background:  url(./bucharest-map-tram-big.png); */
+   /* background-size: cover; */
+   /* background-size: cover; */
+  
+   
+}
+#train{
+    width: 20%;
+    margin-top: 15%;
+    animation: mymove 8s infinite;
+    position: relative;
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 78%;}
+}
+/* #rail{
+    margin-top: 14%;
+    width: 20%;
+    margin-left: 0px;
+    z-index: -1;
+    position: absolute;
+    
+   
+} */
+#map{
+   width: 100%;
+    max-width: 1500px;
+    height: 950px;
+    
+}
